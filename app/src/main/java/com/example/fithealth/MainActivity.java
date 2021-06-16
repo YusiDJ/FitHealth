@@ -30,12 +30,9 @@ public class MainActivity extends AppCompatActivity {
          */
 
         // step tracking
-        stepTrack_Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // call the open_StepTracking method
-                open_StepTracking();
-            }
+        stepTrack_Button.setOnClickListener(v -> {
+            // call the open_StepTracking method
+            open_StepTracking();
         });
     }
 
